@@ -40,9 +40,8 @@ layout: page
         </p>
       </div>    
     {% endif %}
-  {% endfor %}
+    {% endfor %}
 </div>
-<hr>
 {% endfor %}
 
 <h3>Alumni</h3>
@@ -158,3 +157,5 @@ for Embedded Systems</a>.
 M.S., 2005: <a href="bschwarz-ms.pdf">Model Checking An Entire
 Linux Distribution for Security Violations</a>.
 </ul>
+
+<hr>
