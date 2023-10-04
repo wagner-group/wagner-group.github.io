@@ -1,11 +1,11 @@
 ---
-title: blog
-permalink: /blog/
+title: projects
+permalink: /projects/
 layout: page
 ---
 
 <div class="content list">
-  {% for post in site.posts %}
+  {% for post in site.projects %}
     <div class="list-item">
       <p class="list-post-title">
         <a href="{{ post.url | prepend: site.baseurl }}">
