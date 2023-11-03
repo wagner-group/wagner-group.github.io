@@ -47,10 +47,11 @@ layout: page
 <h3>Alumni</h3>
 
 <ul>
+<li><a href="https://surrealyz.github.io/">Yizheng Chen</a> (University of Maryland, College Park), Postdoc, 2023.
 <li><a href="https://www.linkedin.com/in/nabeel-hingun-044a40198">Nabeel Hingun</a> (<a href="https://hiddenlayer.com/">HiddenLayer</a>),
 M.S., 2023,
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2023/EECS-2023-153.html">Scaling Part Models: Challenges and Solutions for Robustness on Large Datasets</a>.
-<li><a href="https://www.nathanmalkin.com/">Nathan Malkin</a> (U Maryland), Ph.D., 2021,
+<li><a href="https://www.nathanmalkin.com/">Nathan Malkin</a> (University of Maryland, College Park), Ph.D., 2021,
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/EECS-2022-249.html">Privacy Controls for Always-Listening Devices</a>.
 <li><a href="https://www.linkedin.com/in/an-ju-phd/">An Ju</a>, Ph.D., 2021,
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-47.html">Generative Models as a Robust Alternative for Image Classification: Progress and Challenges</a>.
@@ -58,7 +59,7 @@ M.S., 2023,
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-68.html">Improving the Efficiency of Robust Generative Classifiers</a>.
 <li><a href="https://henryzxu.com/">Henry Xu</a>, M.S., 2021,
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-105.html">Model-Agnostic Defense for Lane Detection Against Adversarial Attack</a>.
-<li><a href="https://www.linkedin.com/in/zhanyuan-zhang/">Zhanyuan Zhang</a>, M.S., 2021,
+<li><a href="https://www.linkedin.com/in/zhanyuan-zhang/">Zhanyuan Zhang</a> (Petuum), M.S., 2021,
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-126.html">Towards Characterizing Model Extraction Queries and How to Detect Them</a>.
 <li><a href="https://www.linkedin.com/in/zachary-golan-strieb-386b8a9b/">Zachary Golan-Strieb</a> (Duolingo), M.S., 2021,
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-241.html">Towards Evaluating and Understanding the Adversarial Robustness of Random Transformation Defenses</a>.

@@ -1,7 +1,7 @@
 ---
 name: Chawin Sitawarin
 position: grad
-avatar: chawin_sitawarin.jpeg
+avatar: chawin_sitawarin.png
 joined: 2018
 ---
 
