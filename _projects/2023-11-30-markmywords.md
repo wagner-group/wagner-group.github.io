@@ -1,10 +1,7 @@
 ---
-title: Mark My Words: Analyzing and Evaluating Language Model Watermarks
-description: We propose a benchmark for evaluating LLM watermarks, focusing on three main metrics: 
-quality, size (the number of tokens needed to detect a watermark), and tamper-resistance. 
-We find current watermarking techniques are good enough to be deployed: Kirchenbauer et al.
-[1] can watermark Llama2-7B-chat with no perceivable loss in quality in under 100 tokens, and 
-with good tamper-resistance to simple attacks, regardless of temperature.
+title: Mark My Words
+description: We propose a benchmark for evaluating LLM watermarks, focusing on three main metrics - quality, size (the number of tokens needed to detect a watermark), and tamper-resistance. We find current watermarking techniques are good enough to be deployed. Kirchenbauer et al. [1] can watermark Llama2-7B-chat with no perceivable loss in quality in under 100 tokens, and with good tamper-resistance to simple attacks, regardless of temperature.
+header-img: images/markmywords/markmywords_thumbnail.png
 ---
 
 **TL;DR**: LLM Watermarking techniques are ready for deployment.
@@ -32,7 +29,7 @@ machine-generated text from human-authored content becomes
 important. Prior works have proposed numerous schemes
 to watermark text, which would benefit from a systematic
 evaluation framework. This work focuses on text watermarking
-techniques — as opposed to imnage watermarks — and proposes
+techniques — as opposed to image watermarks — and proposes
 a comprehensive benchmark for them under different tasks
 as well as practical attacks. We focus on three main metrics:
 quality, size (e.g. the number of tokens needed to detect a
