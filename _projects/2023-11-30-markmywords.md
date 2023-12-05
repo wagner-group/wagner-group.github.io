@@ -11,7 +11,7 @@ We compare four schemes from the literature, and find the best to be Kirchenbaue
 It can watermark Llama2-7B-chat with no perceivable loss in quality in under 100 tokens, and 
 with good tamper-resistance to simple attacks, regardless of temperature.
 
-<button name="button" onclick="window.location.href='https://arxiv.org/abs/';">ArXiv 🗞</button>
+<button name="button" onclick="window.location.href='https://arxiv.org/abs/2312.00273';">ArXiv 🗞</button>
 <button name="button" onclick="window.location.href='https://github.com/wagner-group/MarkMyWords';">Benchmark 💻</button>
 
 Authors: [Julien Piet](https://people.eecs.berkeley.edu/~julien.piet/), [Chawin Sitawarin](https://chawins.github.io/), 
