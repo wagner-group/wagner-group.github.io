@@ -89,7 +89,7 @@ You can find more details about our results on all schemes as well as watermarki
 
 ## Design space
 
-We express all previous LLM watermaarking schemes as part of a unified framework, detailed below. 
+We express all previous LLM watermarking schemes as part of a unified framework, detailed below. 
 
 ![Design](../../images/markmywords/design.png)
 
