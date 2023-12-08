@@ -83,7 +83,7 @@ At a temperature of 1, the exponential scheme has a slightly smaller size.
 
 ### Tamper-resistance
 
-The distribution-shift mark is still detectable on 1000-token generations after using GPT-3.5 to paraphrase the text in about 50% of cases, with near-optional quality and a size under 100 tokens. 
+The distribution-shift mark is still detectable on 1000-token generations after using a translation attack in about 50% of cases, with near-optional quality and a size under 100 tokens. 
 
 You can find more details about our results on all schemes as well as watermarking parameter recommendations in our paper. 
 
