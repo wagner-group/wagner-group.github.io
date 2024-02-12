@@ -5,7 +5,7 @@ joined: 2020
 avatar: norman_mu.jpeg
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}">
+<img width="200" src="{{site.baseurl}}/images/people/{{page.avatar}}">
 
 ### About Me
 
