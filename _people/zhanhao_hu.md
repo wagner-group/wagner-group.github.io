@@ -1,7 +1,7 @@
 ---
 name: Zhanhao Hu
 position: postdoc
-avatar: zhanhao_wu.jpeg
+avatar: zhanhao_hu.jpeg
 joined: 2024
 ---
 
