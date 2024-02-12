@@ -6,3 +6,5 @@ joined: 2024
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}">
+
+[Personal website](https://whothu.github.io)
