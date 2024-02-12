@@ -5,4 +5,6 @@ avatar: julien_piet.jpeg
 joined: 2021
 ---
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}">
+<img width="200" src="{{site.baseurl}}/images/people/{{page.avatar}}">
+
+[Personal website](https://people.eecs.berkeley.edu/~julien.piet)
