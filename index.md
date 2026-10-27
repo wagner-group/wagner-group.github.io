@@ -3,7 +3,7 @@ layout: page
 ---
 
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "pi|postdoc|grad|ugrad" | split: "|" %}
+{% assign role_array = "pi|postdoc|grad|ugrad|furry" | split: "|" %}
 
 {% for role in role_array %}
 
@@ -23,6 +23,8 @@ layout: page
 <h3>Graduate Students</h3>
 {% elsif role == 'ugrad' %}
 <h3>Undergraduate Students</h3>
+{% elsif role == 'furry' %}
+<h3>Furry Collaborators</h3>
 {% endif %}
 </div>
 

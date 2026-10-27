@@ -1,6 +1,6 @@
 ---
-name: Furry Collaborators
-position: grad
+name: Vivi
+position: furry
 avatar: vivi_hou.jpg
 joined: 2026
 ---
