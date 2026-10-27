@@ -47,6 +47,11 @@ layout: page
 <h3>Alumni</h3>
 
 <ul>
+<li><a href="https://whothu.github.io">Zhanhao Hu</a>, Postdoc, 2026.
+<li><a href="https://www.linkedin.com/in/julien-piet-b1741975">Julien Piet</a> (Google DeepMind), Ph.D., 2026,
+<a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-142.html">AI-Assisted Signal Extraction and Misuse Detection in Internet Systems</a>.
+<li><a href="https://normanmu.com/">Norman Mu</a> (xAI), Ph.D., 2025,
+<a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-94.html">Tips and Tricks for Building Controllable Artificial Intelligence</a>.
 <li><a href="https://chawins.github.io/">Chawin Sitawarin</a> (<a href="https://research.facebook.com/teams/central-applied-science/">Meta Research</a>), Ph.D., 2024, <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-10.html">New Perspectives on Adversarially Robust Machine Learning Systems</a>.
 <li><a href="https://surrealyz.github.io/">Yizheng Chen</a> (University of Maryland, College Park), Postdoc, 2023.
 <li><a href="https://www.linkedin.com/in/nabeel-hingun-044a40198">Nabeel Hingun</a> (<a href="https://hiddenlayer.com/">HiddenLayer</a>),
