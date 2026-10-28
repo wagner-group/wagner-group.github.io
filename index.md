@@ -74,7 +74,7 @@ layout: page
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-94.html">Tips and Tricks for Building Controllable Artificial Intelligence</a>.
 <li><a href="https://jonathanlu.me/">Jonathan Lu</a> (Sierra.ai), M.S., 2025,
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-130.html">Towards Controllable Language Models With Instruction Hierarchies</a>.
-<li><a href="https://chawins.github.io/">Chawin Sitawarin</a> (<a href="https://www.anthropic.com/">Anthropic</a>), Ph.D., 2024, <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-10.html">New Perspectives on Adversarially Robust Machine Learning Systems</a>.
+<li><a href="https://chawins.github.io/">Chawin Sitawarin</a> (Anthropic), Ph.D., 2024, <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-10.html">New Perspectives on Adversarially Robust Machine Learning Systems</a>.
 <li><a href="https://surrealyz.github.io/">Yizheng Chen</a> (University of Maryland, College Park), Postdoc, 2023.
 <li><a href="https://www.linkedin.com/in/nabeel-hingun-044a40198">Nabeel Hingun</a> (<a href="https://hiddenlayer.com/">HiddenLayer</a>),
 M.S., 2023,
