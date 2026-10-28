@@ -1,5 +1,6 @@
 ---
 name: Sizhe Chen
+last: chen
 position: grad
 avatar: sizhe_chen.jpeg
 joined: 2023

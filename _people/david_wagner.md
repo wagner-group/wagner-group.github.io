@@ -1,5 +1,6 @@
 ---
 name: David Wagner
+last: wagner
 position: pi
 avatar: david_wagner.gif
 ---

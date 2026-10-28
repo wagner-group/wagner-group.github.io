@@ -1,5 +1,6 @@
 ---
 name: Dennis Jacob
+last: jacob
 position: grad
 avatar: dennis_jacob.jpg
 joined: 2025

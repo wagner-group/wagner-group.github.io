@@ -1,5 +1,6 @@
 ---
 name: Rebecca Saul
+last: saul
 position: grad
 avatar: rebecca_saul.jpeg
 joined: 2024

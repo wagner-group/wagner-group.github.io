@@ -1,5 +1,6 @@
 ---
 name: Muxi Lyu
+last: lyu
 position: grad
 avatar: muxi_lyu.jpg
 joined: 2025

@@ -2,12 +2,26 @@
 layout: page
 ---
 
-{% assign people_sorted = site.people | sort: 'joined' %}
+<!-- Sort by intake year, then last name. Build a "year~lastname~url" key per
+     person; last name falls back to the last word of the display name if the
+     `last` field is missing. -->
+{% assign sort_rows = "" | split: "," %}
+{% for p in site.people %}
+  {% assign yr = p.joined | default: 9999 %}
+  {% assign ln = p.last %}
+  {% if ln == nil or ln == "" %}
+    {% assign ln = p.name | split: " " | last %}
+  {% endif %}
+  {% assign ln = ln | downcase %}
+  {% assign row = yr | append: "~" | append: ln | append: "~" | append: p.url %}
+  {% assign sort_rows = sort_rows | push: row %}
+{% endfor %}
+{% assign sort_rows = sort_rows | sort %}
 {% assign role_array = "pi|postdoc|grad|ugrad|furry" | split: "|" %}
 
 {% for role in role_array %}
 
-{% assign people_in_role = people_sorted | where: 'position', role %}
+{% assign people_in_role = site.people | where: 'position', role %}
 
 <!-- Skip section if there's nobody -->
 {% if people_in_role.size == 0%}
@@ -29,8 +43,10 @@ layout: page
 </div>
 
 <div class="content list people">
-  {% for profile in people_sorted %}
-    {% if profile.position contains role %}
+  {% for row in sort_rows %}
+    {% assign purl = row | split: "~" | last %}
+    {% assign profile = site.people | where: "url", purl | first %}
+    {% if profile.position == role %}
       <div class="list-item-people">
         <p class="list-post-title">
           {% if profile.avatar %}
@@ -52,9 +68,13 @@ layout: page
 <li><a href="https://whothu.github.io">Zhanhao Hu</a>, Postdoc, 2026.
 <li><a href="https://www.linkedin.com/in/julien-piet-b1741975">Julien Piet</a> (Google DeepMind), Ph.D., 2026,
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-142.html">AI-Assisted Signal Extraction and Misuse Detection in Internet Systems</a>.
+<li><a href="https://www.linkedin.com/in/aidan-wen">Aidan Wen</a> (Google), M.S., 2026,
+<a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2026/EECS-2026-226.html">Applications of Large Language Models to Computer Security</a>.
 <li><a href="https://normanmu.com/">Norman Mu</a> (xAI), Ph.D., 2025,
 <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-94.html">Tips and Tricks for Building Controllable Artificial Intelligence</a>.
-<li><a href="https://chawins.github.io/">Chawin Sitawarin</a> (<a href="https://research.facebook.com/teams/central-applied-science/">Meta Research</a>), Ph.D., 2024, <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-10.html">New Perspectives on Adversarially Robust Machine Learning Systems</a>.
+<li><a href="https://jonathanlu.me/">Jonathan Lu</a> (Sierra.ai), M.S., 2025,
+<a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-130.html">Towards Controllable Language Models With Instruction Hierarchies</a>.
+<li><a href="https://chawins.github.io/">Chawin Sitawarin</a> (<a href="https://www.anthropic.com/">Anthropic</a>), Ph.D., 2024, <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-10.html">New Perspectives on Adversarially Robust Machine Learning Systems</a>.
 <li><a href="https://surrealyz.github.io/">Yizheng Chen</a> (University of Maryland, College Park), Postdoc, 2023.
 <li><a href="https://www.linkedin.com/in/nabeel-hingun-044a40198">Nabeel Hingun</a> (<a href="https://hiddenlayer.com/">HiddenLayer</a>),
 M.S., 2023,

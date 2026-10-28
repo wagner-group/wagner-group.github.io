@@ -1,5 +1,6 @@
 ---
 name: Yiwei Hou
+last: hou
 position: grad
 avatar: yiwei_hou.jpg
 joined: 2025
