@@ -472,6 +472,12 @@ tbody tr:nth-child(odd) th {
   margin-left: 2rem;
 }
 
+// Extra breathing room above each section that follows a people grid
+.people + .pos_header,
+.people + h3 {
+  margin-top: 2rem;
+}
+
 .people {
   margin: auto;
   text-align: center;
